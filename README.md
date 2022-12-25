@@ -1,4 +1,4 @@
-# tshirts = float(input("Enter tshirt Quantity :"))
+tshirts = float(input("Enter tshirt Quantity :"))
 jacket	= float(input("Enter jacket Quantity :"))
 cap = float(input("Enter cap Quantity :"))
 notebook = float(input("Enter notebook Quantity :"))
@@ -30,7 +30,7 @@ else:
 discountAmount = (amount*discount)/100
 netAmt = amount - discountAmount
 
-if(amount >= 1000):
+if(amount >= 100):
     netAmt = amount + 10
 
 print("Discount = %d%% and Discount Amount = %.2f"%(discount,discountAmount))
