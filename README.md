@@ -30,7 +30,7 @@ else:
 discountAmount = (amount*discount)/100
 netAmt = amount - discountAmount
 
-if(amount >= 100):
+if(amount >= 1000):
     netAmt = amount + 10
 
 print("Discount = %d%% and Discount Amount = %.2f"%(discount,discountAmount))
